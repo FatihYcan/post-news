@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+}
+
+.container {
+  background-color: #f5f5f5;
+}
+
+.header {
+  display: flex;
+  margin-left: 16px;
+  margin-right: 16px;
+  justify-content: space-between;
+  font-family: "Inter", sans-serif;
+}
+
+.header .left {
+  align-items: center;
+  display: flex;
+}
+.header .left img {
+  width: 60px;
+}
+
+.right ul {
+  list-style-type: none;
+}
+
+.right li {
+  padding: 16px;
+  display: inline-block;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #20889f;
+}
+
+.navbar .left {
+  font-family: "Kenia", sans-serif;
+  font-size: 32px;
+  align-items: center;
+  display: flex;
+  color: white;
+  padding-left: 16px;
+}
+
+.navbar .right {
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+.navbar .right ul {
+  align-items: center;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  font-weight: 400px;
+}
+
+.navbar .right li {
+  padding: 16px;
+  display: inline-block;
+}
+
+.navbar .right .avatar p {
+  font-size: 20px;
+}
+
+.navbar .right .avatar {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.navbar .right img {
+  width: 70px;
+}
+
+.main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  width: 100%;
+}
+
+.main .left {
+  width: 35%;
+  height: 475px;
+  background-color: white;
+  box-shadow: 3px 3px 3px gray;
+  margin-left: 480px;
+  margin-top: 32px;
+}
+
+.main .left ul {
+  list-style-type: none;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.home {
+  border-radius: 10px;
+  background-color: rgba(32, 136, 159, 0.2);
+}
+
+.main .left ul li {
+  display: inline-block;
+  padding: 16px;
+}
+
+.main .right .titlepeople {
+  width: 60%;
+  background-color: white;
+  box-shadow: 3px 3px 3px gray;
+  margin-left: 32px;
+  margin-top: 32px;
+  padding: 10px;
+}
+
+.main .right .titlepeople h2 {
+  color: #20889f;
+}
+
+.main .right .people {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 16px;
+  border-bottom: 2px solid gray;
+}
+
+.avatars {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+
+.people img {
+  width: 70px;
+  height: 65px;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.logo {
+  padding: 16px;
+}
+
+.name {
+  font-size: 22px;
+}
+
+.down {
+  padding: 16px;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  padding: 16px;
+}
+
+.down img {
+  width: 40%;
+  border: 12px solid rgba(32, 136, 159, 0.8);
+  border-radius: 16px;
+}
+
+.paragraf {
+  margin-left: 16px;
+}
+
+.p1 {
+  /* font-size: 20px; */
+}
+
+.p2 {
+  font-size: 12px;
+  color: #20889f;
+}
+
+.lower {
+  width: 60%;
+  margin-left: 32px;
+  margin-top: 32px;
+  background-color: white;
+  box-shadow: 3px 3px 3px gray;
+  padding: 10px;
+}
+
+.lower h2 {
+  color: #20889f;
+}
+
+.low {
+  text-align: center;
+  display: flex;
+}
+
+.lowes {
+  padding: 18px;
+}
+
+.lowes img {
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.write {
+  margin-left: 16px;
+}
