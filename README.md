@@ -29,9 +29,11 @@ Haber makalelerini yayınlamak ve görüntülemek için basit bir web uygulamas�
 - En iyi haberler bölümü
 
 ## Teknolojiler
--HTML
--CSS
+- HTML
+- CSS
 - Font Awesome
 - Google Fonts
+
+![cw](./img/post.jpg)
 
 [Canlı Demo'yu Deneyin](https://fatihycan.github.io/post-news/)
