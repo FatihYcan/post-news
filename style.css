@@ -86,32 +86,30 @@ div {
 }
 
 .main {
+  width: 100%;
+  font-family: "Inter", sans-serif;
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  font-family: "Inter", sans-serif;
-  width: 100%;
 }
 
 .main .left {
-  width: 35%;
-  height: 475px;
+  width: 70%;
   background-color: white;
+  margin-top: 2rem;
+  margin-left: 30rem;
   box-shadow: 3px 3px 3px gray;
-  margin-left: 480px;
-  margin-top: 32px;
 }
 
 .main .left ul {
-  list-style-type: none;
-  padding: 16px;
   display: flex;
   flex-direction: column;
+  padding: 1rem;
 }
 
 .home {
-  border-radius: 10px;
   background-color: rgba(32, 136, 159, 0.2);
+  border-radius: 10px;
 }
 
 .main .left ul li {
@@ -119,12 +117,16 @@ div {
   padding: 16px;
 }
 
+.main .right {
+  flex-direction: column;
+}
+
 .main .right .titlepeople {
-  width: 60%;
   background-color: white;
+  margin-top: 2rem;
+  width: 60%;
   box-shadow: 3px 3px 3px gray;
-  margin-left: 32px;
-  margin-top: 32px;
+  margin-left: 2rem;
   padding: 10px;
 }
 
@@ -135,7 +137,7 @@ div {
 .main .right .people {
   display: flex;
   flex-wrap: wrap;
-  padding: 16px;
+  padding: 1rem;
   border-bottom: 2px solid gray;
 }
 
@@ -146,14 +148,14 @@ div {
 }
 
 .people img {
-  width: 70px;
-  height: 65px;
+  width: 80px;
+  height: 75px;
   border-radius: 50%;
   border: 3px solid black;
 }
 
 .logo {
-  padding: 16px;
+  margin-left: 1rem;
 }
 
 .name {
@@ -161,43 +163,44 @@ div {
 }
 
 .down {
-  padding: 16px;
-  flex-wrap: wrap;
+  padding: 1rem;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .image {
+  width: 50%;
   display: flex;
   align-items: center;
-  width: 50%;
-  padding: 16px;
+  padding: 1rem;
 }
 
-.down img {
+.image img {
   width: 40%;
   border: 12px solid rgba(32, 136, 159, 0.8);
-  border-radius: 16px;
+  border-radius: 1rem;
 }
 
 .paragraf {
-  margin-left: 16px;
+  margin-left: 1rem;
 }
 
 .p1 {
-  /* font-size: 20px; */
+  font-weight: 600;
 }
 
 .p2 {
   font-size: 12px;
   color: #20889f;
+  
 }
 
 .lower {
-  width: 60%;
-  margin-left: 32px;
-  margin-top: 32px;
   background-color: white;
+  margin-top: 2rem;
+  width: 60%;
   box-shadow: 3px 3px 3px gray;
+  margin-left: 2rem;
   padding: 10px;
 }
 
