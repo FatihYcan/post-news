@@ -33,3 +33,5 @@ Haber makalelerini yayınlamak ve görüntülemek için basit bir web uygulamas�
 -CSS
 - Font Awesome
 - Google Fonts
+
+[Canlı Demo'yu Deneyin](https://fatihycan.github.io/post-news/)
